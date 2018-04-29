@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Songs">
+
+
+    <TextView
+        android:id="@+id/album_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_selected_album"
+        android:textSize="@dimen/textSize_selected_album" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="@dimen/width_play_menu"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/album_icon"
+                android:layout_width="@dimen/width_image_play_menu"
+                android:layout_height="@dimen/height_image_play_menu"
+                android:layout_margin="@dimen/margin_image_play_menu"
+                android:adjustViewBounds="true" />
+
+
+            <RelativeLayout
+                android:id="@+id/playButtons"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_play_menu"
+                android:layout_centerInParent="true">
+
+                <Button
+                    android:id="@+id/play"
+                    android:layout_width="@dimen/width_playButtons"
+                    android:layout_height="@dimen/height_playButtons"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginEnd="@dimen/marginE_playButtons"
+                    android:layout_marginStart="@dimen/marginS_playButtons"
+                    android:background="@drawable/play" />
+
+                <Button
+                    android:id="@+id/stop"
+                    android:layout_width="@dimen/width_playButtons"
+                    android:layout_height="@dimen/height_playButtons"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/play"
+                    android:background="@drawable/stop" />
+
+                <Button
+                    android:id="@+id/pouse"
+                    android:layout_width="@dimen/width_playButtons"
+                    android:layout_height="@dimen/height_playButtons"
+                    android:layout_alignParentTop="true"
+                    android:layout_toStartOf="@+id/play"
+                    android:background="@drawable/pouse" />
+
+                <Button
+                    android:id="@+id/shufle"
+                    android:layout_width="@dimen/width_playButtons"
+                    android:layout_height="@dimen/height_playButtons"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginEnd="@dimen/margin_play2Buttons"
+                    android:layout_marginStart="@dimen/marginS_play2Buttons"
+                    android:background="@drawable/shufle" />
+
+                <Button
+                    android:id="@+id/sequence"
+                    android:layout_width="@dimen/width_playButtons"
+                    android:layout_height="@dimen/height_playButtons"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="@dimen/margin_play2Buttons"
+                    android:layout_toEndOf="@+id/shufle"
+                    android:background="@drawable/sequence" />
+
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="@dimen/width_backB"
+                android:layout_height="@dimen/height_backB"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="@dimen/margin_backB"
+                android:background="@drawable/back"
+                android:onClick="back" />
+
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/song_list"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Musical Structure App</string>
+    <string name="pentatonix">Pentatonix</string>
+    <string name="menu">menu</string>
+    <string-array name="album_ptx">
+        <item>Starships</item>
+        <item>The Baddest Girl</item>
+        <item>Somebody That I Used to Know</item>
+        <item>Aha!</item>
+        <item>Show You How to Love</item>
+        <item>Love You Long Time</item>
+        <item>We Are Young</item>
+        <item>Can't Hold Us</item>
+        <item>Natural Disaster</item>
+        <item>Love Again</item>
+        <item>Valentine</item>
+        <item>Hey Momma </item>
+        <item>I Need Your Love</item>
+        <item>Run to You</item>
+        <item>Daft Punk</item>
+        <item>Save the World</item>
+        <item>Radioactive</item>
+        <item>Say Something</item>
+        <item>Royals</item>
+    </string-array>
+    <string-array name="album_thatsChrismas">
+        <item>Hark! The Herald Angels Sing</item>
+        <item>White Winter Hymnal</item>
+        <item>Sleigh Ride</item>
+        <item>Winter Wonderland</item>
+        <item>That's Christmas to Me</item>
+        <item>Mary, Did You Know?</item>
+        <item>Dance of the Sugar Plum Fairy</item>
+        <item>It's the Most Wonderful Time of the Year</item>
+        <item>Santa Claus Is Coming to Town</item>
+        <item>Silent Night</item>
+        <item>Let It Go</item>
+    </string-array>
+    <string-array name="album_pentatonix">
+        <item>Na Na Na</item>
+        <item>Can't Sleep Love</item>
+        <item>Sing</item>
+        <item>Misbehavin</item>
+        <item>Ref</item>
+        <item>First Things First</item>
+        <item>If I Ever Fall in Love</item>
+        <item>Cracked</item>
+        <item>Water</item>
+        <item>Take Me Home</item>
+        <item>New Year's Day</item>
+        <item>Light in the Hallway</item>
+    </string-array>
+    <string-array name="album_pentatonixChrismas">
+        <item>O Come, All Ye Faithful</item>
+        <item>God Rest Ye Merry Gentlemen</item>
+        <item>White Christmas</item>
+        <item>I'll Be Home for Christmas</item>
+        <item>Up on the Housetop</item>
+        <item>The Christmas Sing-Along</item>
+        <item>Coventry Carol</item>
+        <item>Hallelujah</item>
+        <item>Coldest Winter</item>
+        <item>Good to Be Bad</item>
+        <item>Merry Christmas, Happy Holidays</item>
+    </string-array>
+
+
+</resources>

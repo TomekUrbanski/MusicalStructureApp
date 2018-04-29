@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="width_playButtons">40dp</dimen>
+    <dimen name="height_playButtons">40dp</dimen>
+    <dimen name="padding_main_category">16dp</dimen>
+    <dimen name="textSize_main_category">24sp</dimen>
+    <dimen name="textSize_selected_album">24sp</dimen>
+    <dimen name="margin_selected_album">8dp</dimen>
+    <dimen name="width_play_menu">0dp</dimen>
+    <dimen name="width_image_play_menu">150dp</dimen>
+    <dimen name="height_image_play_menu">150dp</dimen>
+    <dimen name="margin_image_play_menu">16dp</dimen>
+    <dimen name="height_play_menu">90dp</dimen>
+    <dimen name="marginS_playButtons">8dp</dimen>
+    <dimen name="marginE_playButtons">8dp</dimen>
+    <dimen name="marginS_play2Buttons">49dp</dimen>
+    <dimen name="margin_play2Buttons">4dp</dimen>
+    <dimen name="width_backB">40dp</dimen>
+    <dimen name="height_backB">45dp</dimen>
+    <dimen name="margin_backB">8dp</dimen>
+    <dimen name="padding_albumList">16dp</dimen>
+    <dimen name="width_imageAlbum">50dp</dimen>
+    <dimen name="height_imageAlbum">50dp</dimen>
+    <dimen name="paddingS_textLayout_album">16dp</dimen>
+</resources>
