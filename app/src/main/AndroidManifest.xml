@@ -20,10 +20,12 @@
         </activity>
         <activity
             android:name=".Pentatonix"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:label="@string/pentatonix"/>
         <activity
             android:name=".Songs"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:label="@string/pentatonix"/>
     </application>
 
 </manifest>

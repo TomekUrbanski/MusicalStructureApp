@@ -30,65 +30,19 @@
 
             <ImageView
                 android:id="@+id/album_icon"
-                android:layout_width="@dimen/width_image_play_menu"
-                android:layout_height="@dimen/height_image_play_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
                 android:layout_margin="@dimen/margin_image_play_menu"
-                android:adjustViewBounds="true" />
+                android:src="@mipmap/ic_launcher" />
 
 
-            <RelativeLayout
-                android:id="@+id/playButtons"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/height_play_menu"
-                android:layout_centerInParent="true">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/play" />
 
-                <Button
-                    android:id="@+id/play"
-                    android:layout_width="@dimen/width_playButtons"
-                    android:layout_height="@dimen/height_playButtons"
-                    android:layout_alignParentTop="true"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginEnd="@dimen/marginE_playButtons"
-                    android:layout_marginStart="@dimen/marginS_playButtons"
-                    android:background="@drawable/play" />
-
-                <Button
-                    android:id="@+id/stop"
-                    android:layout_width="@dimen/width_playButtons"
-                    android:layout_height="@dimen/height_playButtons"
-                    android:layout_alignParentTop="true"
-                    android:layout_toEndOf="@+id/play"
-                    android:background="@drawable/stop" />
-
-                <Button
-                    android:id="@+id/pouse"
-                    android:layout_width="@dimen/width_playButtons"
-                    android:layout_height="@dimen/height_playButtons"
-                    android:layout_alignParentTop="true"
-                    android:layout_toStartOf="@+id/play"
-                    android:background="@drawable/pouse" />
-
-                <Button
-                    android:id="@+id/shufle"
-                    android:layout_width="@dimen/width_playButtons"
-                    android:layout_height="@dimen/height_playButtons"
-                    android:layout_alignParentBottom="true"
-                    android:layout_alignParentStart="true"
-                    android:layout_marginEnd="@dimen/margin_play2Buttons"
-                    android:layout_marginStart="@dimen/marginS_play2Buttons"
-                    android:background="@drawable/shufle" />
-
-                <Button
-                    android:id="@+id/sequence"
-                    android:layout_width="@dimen/width_playButtons"
-                    android:layout_height="@dimen/height_playButtons"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginStart="@dimen/margin_play2Buttons"
-                    android:layout_toEndOf="@+id/shufle"
-                    android:background="@drawable/sequence" />
-
-
-            </RelativeLayout>
 
             <Button
                 android:id="@+id/back"
@@ -98,7 +52,7 @@
                 android:layout_alignParentEnd="true"
                 android:layout_margin="@dimen/margin_backB"
                 android:background="@drawable/back"
-                android:onClick="back" />
+                 />
 
         </RelativeLayout>
 

@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -17,7 +18,7 @@ public class Pentatonix extends AppCompatActivity {
         setContentView(R.layout.album_list);
 
         final ArrayList<Albums> albums = new ArrayList<Albums>();
-        albums.add(new Albums("PTX, Vols. 1&2", "2014", R.drawable.ptxpentatonix));
+        albums.add(new Albums("PTX, Vols. 1&2", "2014", R.drawable.ptx));
         albums.add(new Albums("That`s Christmas to Me", "2014", R.drawable.christmaspenta));
         albums.add(new Albums("Pentatonix", "2015", R.drawable.pentatonixpenta));
         albums.add(new Albums("A Pentatonix Christmas", "2016", R.drawable.achristmaspenta));
@@ -37,11 +38,17 @@ public class Pentatonix extends AppCompatActivity {
             }
         });
 
+        Button back = findViewById(R.id.back);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Pentatonix.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
-    public void back(View v) {
-        Intent intent = new Intent(Pentatonix.this, MainActivity.class);
-        startActivity(intent);
-    }
+
 
 }

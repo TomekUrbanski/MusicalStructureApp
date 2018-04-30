@@ -18,8 +18,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_margin="@dimen/margin_backB"
-        android:background="@drawable/back"
-        android:onClick="back" />
+        android:background="@drawable/back" />
 
 
 </RelativeLayout>
